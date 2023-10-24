@@ -1,6 +1,15 @@
 .footer {
   padding-top: 54px;
   padding-bottom: 54px;
+
+  &__text {
+    color: var(--Dark, #21243D);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 }
 
 .footer-container {
