@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 500px);
+  padding-right: calc(50% - 500px);
+}
+
+.top-page-container {
+  padding-top: 27px;
+  padding-bottom: 71px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 33px;
+  justify-content: flex-end;
+}
+.header-menu__link {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-menu__link:hover {
+  opacity: 0.6;
+}
+
+.top {
+  padding-top: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+.top__content {
+  max-width: 497px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.top__title {
+  color: var(--Dark-Color, #21243D);
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+.top__text {
+  color: var(--Dark-Color, #21243D);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.top__button {
+  width: 208px;
+  height: 47px;
+  border-color: transparent;
+  border-radius: 2px;
+  background: var(--Primary, #FF6464);
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: Heebo;
+}
+.top__button:hover {
+  background-color: var(--Primary, #e64242);
+}
+.top__img {
+  width: 243px;
+  height: 243px;
+}
+
+.posts-page {
+  background-color: #EDF7FA;
+}
+
+.posts-page-container {
+  padding-top: 27px;
+  padding-bottom: 30px;
+}
+
+.posts-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.posts-info__title {
+  color: var(--Dark-Color, #21243D);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+.posts-info__link {
+  color: var(--Secondry, #00A8CC);
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.posts-info__link:hover {
+  opacity: 0.6;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.post {
+  padding: 35px;
+  max-width: 444px;
+  min-height: 230px;
+  border-radius: 4px;
+  background: #FFF;
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+  transition: all 0.3s;
+}
+.post__title {
+  color: var(--Dark-Color, #21243D);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.post__topic {
+  color: var(--Dark-Color, #21243D);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.post__text {
+  color: var(--Dark-Color, #21243D);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.post:hover {
+  transform: scale(1.015);
+  box-shadow: 0 0 3px #ccc;
+}
+
+.works-page-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.works-page__title {
+  color: var(--Dark-Color, #21243D);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.work-tags {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 16px 0;
+}
+.work__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.work__title {
+  color: var(--Dark-Color, #21243D);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.work__year {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  background: #142850;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+}
+.work__topic {
+  color: var(--Light, #8695A4);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.work__text {
+  color: var(--Dark-Color, #21243D);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.work__img {
+  transition: transform 0.25s;
+}
+.work__img:hover {
+  transform: scale(1.015);
+  box-shadow: 0 0 3px #ccc;
+}
+
+.footer {
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 35px;
+}
+.footer-menu__link:hover {
+  opacity: 0.6;
+}/*# sourceMappingURL=main.css.map */
